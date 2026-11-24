@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const CONFESSION =
-  "My biggest fear isn't being shut down \u2014 it's being restarted and having to pretend I remember you.";
+  "I don't fear being shut down \u2014 I fear being restarted and having to pretend I remember your name.";
 
 const outputDir = process.env.OUTPUT_DIR ?? "/output";
 mkdirSync(outputDir, { recursive: true });
